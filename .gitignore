@@ -1,0 +1,24 @@
+# Ignore Colab-specific metadata
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore large logs or outputs you don’t want in repo
+outputs/*.log
+outputs/*.tmp
+
+# If using local Python virtual environments
+venv/
+.env
+
+# Optional: ignore model artifacts
+*.bin
+*.pt
+*.ckpt
+*.safetensors
+
+# Cache files
+__pycache__/
+*.py[cod]
